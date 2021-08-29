@@ -1,0 +1,219 @@
+.wrapper{
+    width:100%;
+}
+.list{
+    color:black;
+}
+.h1{
+    text-align: center;
+}
+.box{
+    width:30%;
+    height: 600px;
+    border:1px solid black;
+    box-sizing: border-box;
+    float:left;
+    margin: 1em;
+    padding:1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: goldenrod;
+}
+.inner{
+    width: 50%;
+    background-color: aqua;
+    height: 80%;
+}
+.sb{
+
+position: relative;
+   
+    left:1%;
+}
+.first{
+    width:40%;
+    height: 30%;
+    
+}
+.first1{
+    width:90%;
+    height: 40%;
+}
+.box1{
+    background-color: aqua;
+    position: relative;
+    top: 5%;
+    left:-4%;
+    
+    
+}
+.box2{
+    background-color: aqua;
+    position: relative;
+    top:5%;
+    left: 24%;
+    
+}
+.box3{
+    background-color: aqua;
+    position: relative;
+    width:40%;
+    top:5%;
+    left: 5%;
+    
+   
+}
+.third{
+    width: 43%;
+    height: 40%;
+   
+}
+.b31{
+	
+}
+.b32{
+	width: 45%;
+	height: 45%;
+	margin: 5%  ;
+	background-color:powderblue;
+	position: relative;
+	bottom: 65%;
+	left: 45%;
+
+}
+.img1{
+	position: relative;
+	left: 55%;
+	top: 40%;
+}
+.img2{
+	position: relative;
+	bottom: 30%;
+	left: 5%;
+}
+.bo1{
+    width: 45%;
+	height: 45%;
+	
+	margin: 5% ;
+	background-color:powderblue;
+
+}
+.bo2{
+    width: 45%;
+	height: 45%;
+	margin: 5%  ;
+	background-color:powderblue;
+	position: relative;
+	bottom: 1%;
+	left: 45%;
+
+}
+/*.bo1{
+    background-color: aqua;
+    position: absolute;
+    margin:24px;
+}
+.bo2{
+    background-color: aqua;
+    position: absolute;
+    left:1230px;
+    top:17px;
+}
+.bo3{
+    background-color: aqua;
+    position: absolute;
+    top:299px;
+    left:961px;
+}
+.bo4{
+    background-color: aqua;
+    position: absolute;
+    top:251px;
+    left:1163px;
+    margin:15px;
+}*/
+@media screen and (min-width: 769px){  /*full screen = dimensions should be less*/
+        .box{
+            width:30%
+        }
+        .inner{
+            
+            height: 100%;
+        }
+        .sm{
+            width: 45%;
+        }
+         .sb{
+            width: 45%;
+        }
+        
+        .box1{
+            width: 40%;
+        }
+        .box2{
+            width: 40%;
+        }
+        .box3{
+            width: 90%;
+        }
+        .bo1,.bo2,.bo3,.bo4{
+            width: 43%;
+            height: 40%;
+           
+        }
+        
+}
+@media screen and (max-width: 768px){   /*small screen = dimensions should be large */
+    .box{
+        width:100%
+    }
+    .inner{
+        
+        height: 30%;
+    }
+    .sm{
+        width: 100%;
+    }
+    .sb{
+        width: 100%;
+    }
+
+    
+    
+    .box1{
+        width: 40%;
+    }
+    .box2{
+        width: 40%;
+    }
+    .box3{
+        width: 80%;
+    }
+    .third{
+        width: 43%;
+        height: 40%;
+    }
+    /*.bo1{
+        
+       margin:5%;
+        
+    }
+    .bo2{
+       
+        position: relative;
+        left:16%;
+        top:14%;
+        
+    }
+    .bo3{
+       
+        position: relative;
+        top:2%;
+    }
+    .bo4{
+        position: relative;
+        
+    }*/
+}
